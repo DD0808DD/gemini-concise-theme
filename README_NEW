@@ -1,0 +1,10 @@
+##  How to Use
+
+1. **Install Stylus**: Download and install the **Stylus** extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/stylus/clngdbigpbobmmoedihgandbffonhgha).
+2. **Get the Code**: Copy the entire CSS code from `gemini-theme.user.css` in this repository.
+3. **Create New Style**:
+   * Open [Gemini](https://gemini.google.com/).
+   * Click the **Stylus** extension icon in your browser toolbar.
+   * Click on **"Write style for: gemini.google.com"** (click the URL text).
+4. **Paste and Save**: Paste the copied code into the Stylus editor text area, give it a name on the left sidebar, and press `Ctrl + S` (or `Cmd + S` on Mac) to save.
+5. **Done**: Go back to Gemini, and the minimalist UI will be applied automatically!
