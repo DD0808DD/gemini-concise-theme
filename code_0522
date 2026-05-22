@@ -1,0 +1,133 @@
+/* ==UserStyle==
+@name           GEMINI 26 DD 0522
+@namespace      gemini.dd.style
+@version        2026.05.22
+@author         DD
+@license        No License
+==/UserStyle== */
+@-moz-document domain("gemini.google.com") {
+
+
+    hallucination-disclaimer,
+    div.footer-container,
+    .avatar-gutter,
+    my-stuff-recents-preview,
+    [class*="welcome-container"] {
+        display: none !important;
+    }
+
+    .conversation-container {
+        max-width: 82% !important; 
+        margin: 0 auto !important;
+        background: #ffffff !important;
+    }
+
+    message-content p, .message-content p,
+    message-content li, .message-content li,
+    message-content span, .message-content span,
+    message-content td {
+        font-size: 0.88rem !important;      
+        line-height: 1.5 !important;        
+        color: #334155 !important;          
+        margin-bottom: 2px !important;  
+    }
+
+    message-content h1, .message-content h1,
+    message-content h2, .message-content h2,
+    message-content h3, .message-content h3,
+    message-content h4, .message-content h4 {
+        font-size: 1.05rem !important; 
+        font-weight: 600 !important;
+        color: #0f172a !important;
+        margin-top: 4px !important;   
+        margin-bottom: 4px !important;  
+    }
+
+    user-query, .user-query, 
+    user-query *, .user-query *, 
+    [class*="user-query"] p, [class*="user-query"] div, [class*="user-query"] span {
+        font-size: 0.88rem !important;  
+        line-height: 1.5 !important;
+        color: #334155 !important;
+    }
+
+    .user-query-bubble-with-background, 
+    [class*="user-query-bubble"] {
+        background-color: #f8fafc !important; 
+        border-left: 4px solid #6366f1 !important; 
+        border-radius: 10px !important; 
+        padding: 10px 16px !important;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.02) !important;
+    }
+
+    model-response {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 12px 0 !important;
+    }
+
+    model-thoughts, .model-thoughts {
+        background-color: #f1f5f9 !important;
+        border-radius: 10px !important; 
+        font-size: 0.82rem !important;
+        padding: 8px 12px !important;
+        margin-bottom: 6px !important;
+    }
+
+    :not(pre) > code, p code, li code, span code {
+        background-color: #f1f5f9 !important;
+        color: #0f172a !important; 
+        font-weight: 600 !important;
+        padding: 2px 4px !important;
+        border-radius: 6px !important; 
+        font-family: "Cascadia Code", "CommitMono", "Fira Code", monospace !important;
+        font-size: 0.82rem !important;
+    }
+
+    pre, .code-container {
+        background-color: #0f172a !important; 
+        border-radius: 10px !important; 
+        padding: 12px !important;
+        border: 1px solid #1e293b !important;
+    }
+    pre *, .code-container * {
+        color: #f8fafc !important; 
+        font-family: "Cascadia Code", "CommitMono", "Fira Code", monospace !important;
+        font-size: 0.82rem !important;
+        line-height: 1.4 !important;
+        text-shadow: none !important;
+    }
+
+    user-query-container, .input-area-container {
+        padding-bottom: 18px !important; 
+        background: transparent !important;
+    }
+
+    .input-area {
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important; 
+        border-radius: 10px !important; 
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important; 
+        transition: border-color 0.2s ease !important;
+    }
+    
+    .input-area:focus-within {
+        border-color: #6366f1 !important; 
+    }
+
+    textarea, [contenteditable="true"] {
+        font-size: 0.88rem !important; 
+        line-height: 1.5 !important;
+        min-height: 44px !important; 
+        padding-top: 10px !important;  
+        padding-bottom: 10px !important;
+        color: #0f172a !important;
+    }
+
+    textarea::placeholder, [contenteditable="true"]::placeholder,
+    .placeholder, [data-placeholder]::before, [class*="placeholder"] {
+        font-size: 0.88rem !important;
+        color: #94a3b8 !important; 
+    }
+
+}
